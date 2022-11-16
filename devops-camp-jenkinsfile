@@ -82,7 +82,7 @@ pipeline {
                 }
             }
         }
-        //TODO("Lab 7 - Automated Security Scans"): add a stage
+        //TODO("Lab 7 - Automated Security Scans"): add a stage test
         stage('Deploy') {
             steps {
                 echo "Deployment stage"
